@@ -34,6 +34,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'rest_auth.registration',
+
+    # local applications
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
